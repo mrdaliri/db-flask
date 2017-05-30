@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block content %}
+    {% for field in form.errors %}
+        {% for error in form.errors[field] %}
+            <p>{{ form[field].label }}: {{ error }}</p>
+        {% endfor %}
+    {% endfor %}
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        {{ form.username(placeholder="Username") }}
+        {{ form.email(placeholder="Email") }}
+        {{ form.password(placeholder="Password") }}
+        <input type="submit">
+    </form>
+{% endblock %}

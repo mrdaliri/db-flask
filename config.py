@@ -1,0 +1,6 @@
+SECRET_KEY = 'y&j8-s)^q$!6ih=athg@5rgy$ibg@k(-k3njgc30u4d@tv8qcz'
+
+MYSQL_DATABASE_USER = 'DB2_USER'
+MYSQL_DATABASE_PASSWORD = 'PASSWORD'
+MYSQL_DATABASE_DB = 'DB2'
+MYSQL_DATABASE_HOST = 'localhost'
